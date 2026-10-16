@@ -1,0 +1,216 @@
+/* =========================================
+   Basic Reset & Global Styles
+   ========================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f9;
+    color: #333333;
+    padding: 20px;
+}
+
+/* Page Wrapper / Container */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+}
+
+/* Horizontal Rule */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #e2e8f0;
+    margin: 25px 0;
+}
+
+/* =========================================
+   Header & Profile
+   ========================================= */
+header {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #1a365d;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 22px;
+    color: #2b6cb0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    color: #2d3748;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+/* Profile Picture */
+.profile-img {
+    width: 170px;
+    height: 170px;
+    border: 3px solid #2b6cb0;
+    border-radius: 50%;
+    margin: 10px auto 20px auto;
+    display: block;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #ebf8ff;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #bee3f8;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2b6cb0;
+    font-weight: bold;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background-color: #2b6cb0;
+    color: #ffffff;
+}
+
+/* =========================================
+   Sections & Paragraphs
+   ========================================= */
+section {
+    padding: 10px 0;
+    visibility: visible; /* CSS visibility concept */
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #4a5568;
+}
+
+/* =========================================
+   Education Table
+   ========================================= */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #4a5568;
+}
+
+th, td {
+    border: 1px solid #cbd5e0;
+    padding: 12px 14px;
+    text-align: left;
+}
+
+th {
+    background-color: #2b6cb0;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #edf2f7;
+}
+
+/* =========================================
+   Lists (Skills & Hobbies)
+   ========================================= */
+ul, ol {
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: #4a5568;
+}
+
+.skills-list li {
+    font-weight: 500;
+}
+
+/* =========================================
+   Marksheets Section Links
+   ========================================= */
+.marksheet-card {
+    background-color: #f7fafc;
+    border-left: 4px solid #2b6cb0;
+    padding: 12px 15px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+}
+
+.marksheet-card h3 {
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+.btn-link {
+    display: inline-block;
+    padding: 6px 14px;
+    background-color: #2b6cb0;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.btn-link:hover {
+    background-color: #1a365d;
+}
+
+/* Contact Link */
+.email-link {
+    color: #2b6cb0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
+
+/* =========================================
+   Footer
+   ========================================= */
+footer {
+    text-align: center;
+    padding: 15px 0 5px 0;
+}
+
+footer p {
+    font-size: 14px;
+    color: #718096;
+}
